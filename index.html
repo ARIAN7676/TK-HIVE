@@ -1,0 +1,399 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mundo Hive - Premium Quality Products</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="app.js" defer></script>
+  <meta name="theme-color" content="#2A1B6D">
+</head>
+<body>
+  <nav>
+    <div class="container nav-container">
+      <div class="logo">
+        <svg width="32" height="32" viewBox="0 0 32 32">
+          <path d="M16 4l12 7v10l-12 7-12-7V11l12-7z" fill="none" stroke="currentColor" stroke-width="2"/>
+          <path d="M16 11l5 3v6l-5 3-5-3v-6l5-3z" fill="currentColor"/>
+        </svg>
+        Mundo Hive
+      </div>
+      <div class="nav-links">
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+        <a href="#quote" class="btn btn-outline">Get a Quote</a>
+        <div class="theme-toggle">
+          <label>
+            <input type="checkbox" id="darkModeToggle">
+            <span class="slider">
+              <svg class="sun-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <circle cx="12" cy="12" r="4"/>
+                <path d="M12 2v2"/>
+                <path d="M12 20v2"/>
+                <path d="M4.93 4.93l1.41 1.41"/>
+                <path d="M17.66 17.66l1.41 1.41"/>
+                <path d="M2 12h2"/>
+                <path d="M20 12h2"/>
+                <path d="M6.34 17.66l-1.41 1.41"/>
+                <path d="M19.07 4.93l-1.41 1.41"/>
+              </svg>
+              <svg class="moon-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+              </svg>
+            </span>
+          </label>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1>We take the complexity out of organic sourcing.</h1>
+        <h2>Organic. Simplified.</h2>
+        <p class="slogan">Connecting You to the World's Finest</p>
+        <div class="hero-cta">
+          <a href="#quote" class="btn btn-primary">Request a Quote</a>
+          <a href="#products" class="btn btn-secondary">Explore Products</a>
+        </div>
+      </div>
+    </div>
+    <div class="hero-bg"></div>
+  </section>
+
+  <section id="products" class="products">
+    <div class="container">
+      <div class="section-header">
+        <h2>Our Premium Products</h2>
+        <p>Discover our range of high-quality, organic products</p>
+      </div>
+      
+      <div class="product-categories">
+        <div class="category">
+          <h3>Organic Oils</h3>
+          <div class="product-grid">
+            <div class="product-card">
+              <div class="product-gallery">
+                <div class="gallery-nav"></div>
+                <div class="gallery-main"></div>
+                <button class="play-video">Watch Video</button>
+              </div>
+              <h4>Premium Olive Oil</h4>
+              <p>Finest cold-pressed organic olive oil, sourced directly from sustainable farms.</p>
+            </div>
+            <div class="product-card">
+              <div class="product-gallery">
+                <div class="gallery-nav"></div>
+                <div class="gallery-main"></div>
+                <button class="play-video">Watch Video</button>
+              </div>
+              <h4>Organic Coconut Oil</h4>
+              <p>Pure, unrefined coconut oil from certified organic plantations.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="category">
+          <h3>Natural Salts</h3>
+          <div class="product-grid">
+            <div class="product-card">
+              <div class="product-gallery">
+                <div class="gallery-nav"></div>
+                <div class="gallery-main"></div>
+                <button class="play-video">Watch Video</button>
+              </div>
+              <h4>Himalayan Pink Salt</h4>
+              <p>Pure, mineral-rich pink salt from the Himalayan mountains.</p>
+            </div>
+            <div class="product-card">
+              <div class="product-gallery">
+                <div class="gallery-nav"></div>
+                <div class="gallery-main"></div>
+                <button class="play-video">Watch Video</button>
+              </div>
+              <h4>Sea Salt Flakes</h4>
+              <p>Premium sea salt flakes harvested from pristine waters.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="category">
+          <h3>Specialty Items</h3>
+          <div class="product-grid">
+            <div class="product-card">
+              <div class="product-gallery">
+                <div class="gallery-nav"></div>
+                <div class="gallery-main"></div>
+                <button class="play-video">Watch Video</button>
+              </div>
+              <h4>Organic Honey</h4>
+              <p>Raw, unfiltered honey from organic apiaries.</p>
+            </div>
+            <div class="product-card">
+              <div class="product-gallery">
+                <div class="gallery-nav"></div>
+                <div class="gallery-main"></div>
+                <button class="play-video">Watch Video</button>
+              </div>
+              <h4>Natural Spices</h4>
+              <p>Premium grade spices sourced from organic farms worldwide.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="container">
+      <div class="section-header">
+        <h2>About Us</h2>
+        <p class="section-subtitle">Premium Quality Products at Competitive Prices</p>
+      </div>
+      
+      <div class="about-content">
+        <p class="lead">We provide and supply the best quality products that are organic, pest-free, offered at the best prices. We offer FOB shipping.</p>
+        
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-number" data-value="100">0</div>
+            <div class="stat-label">Global Partners</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number" data-value="10000">0</div>
+            <div class="stat-label">Orders Delivered</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number" data-value="98">0</div>
+            <div class="stat-label">Customer Satisfaction</div>
+          </div>
+        </div>
+
+        <div class="product-highlights">
+          <div class="highlight-card">
+            <div class="highlight-icon" role="img" aria-label="Olive Oil">🫒</div>
+            <div class="highlight-content">
+              <h4>Olive Oil</h4>
+              <p>Premium grade, cold-pressed olive oil from sustainable Mediterranean farms.</p>
+            </div>
+          </div>
+          <div class="highlight-card">
+            <div class="highlight-icon" role="img" aria-label="Salt">🧂</div>
+            <div class="highlight-content">
+              <h4>Salt</h4>
+              <p>Pure, mineral-rich salts sourced from pristine locations worldwide.</p>
+            </div>
+          </div>
+          <div class="highlight-card">
+            <div class="highlight-icon" role="img" aria-label="Honey">🍯</div>
+            <div class="highlight-content">
+              <h4>Honey</h4>
+              <p>Raw, unprocessed honey from certified organic apiaries.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-header">
+        <h2>Contact Us</h2>
+        <p class="section-subtitle">Get in touch with our team</p>
+      </div>
+      
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="info-card">
+            <div class="info-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                <circle cx="12" cy="10" r="3"/>
+              </svg>
+            </div>
+            <h4>Our Office</h4>
+            <p>123 Business Street<br>City, Country 12345</p>
+          </div>
+          <div class="info-card">
+            <div class="info-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 0-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+              </svg>
+            </div>
+            <h4>Contact Info</h4>
+            <p>Email: info@mondayhive.com<br>Phone: +1 234 567 890</p>
+          </div>
+          <div class="info-card">
+            <div class="info-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M12 6v6l4 2"/>
+              </svg>
+            </div>
+            <h4>Business Hours</h4>
+            <p>Monday - Friday: 9:00 AM - 6:00 PM<br>Weekend: Closed</p>
+          </div>
+        </div>
+
+        <form id="contactForm" class="contact-form">
+          <div class="form-group">
+            <label for="name">Full Name*</label>
+            <input type="text" id="name" placeholder="Enter your full name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address*</label>
+            <input type="email" id="email" placeholder="Enter your email address" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number*</label>
+            <input type="tel" id="phone" placeholder="Enter your phone number" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message*</label>
+            <textarea id="message" rows="6" placeholder="Tell us about your needs" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-glow">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section id="quote" class="quote">
+    <div class="container">
+      <div class="section-header">
+        <h2>Get a Quote</h2>
+        <p class="section-subtitle">Request pricing for bulk orders</p>
+      </div>
+
+      <div class="quote-grid">
+        <div class="quote-benefits">
+          <div class="benefits-header">
+            <svg class="benefits-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/>
+              <line x1="7" y1="7" x2="7.01" y2="7"/>
+            </svg>
+            <h3>Bulk Purchase Benefits</h3>
+          </div>
+          <ul class="benefits-list">
+            <li>Special discounts for orders over one container</li>
+            <li>Additional savings for 3+ container purchases</li>
+            <li>Dedicated account manager</li>
+            <li>Priority shipping and handling</li>
+            <li>Custom packaging options</li>
+          </ul>
+          <div class="quote-guarantee">
+            <svg class="guarantee-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            </svg>
+            <p>Best Price Guarantee</p>
+          </div>
+        </div>
+
+        <form id="quoteForm" class="quote-form">
+          <div class="form-group">
+            <label for="company">Company Name*</label>
+            <input type="text" id="company" placeholder="Enter your company name" required>
+          </div>
+          <div class="form-group">
+            <label for="product">Product of Interest*</label>
+            <select id="product" required>
+              <option value="">Select a product</option>
+              <option value="olive-oil">Premium Olive Oil</option>
+              <option value="coconut-oil">Organic Coconut Oil</option>
+              <option value="pink-salt">Himalayan Pink Salt</option>
+              <option value="sea-salt">Sea Salt Flakes</option>
+              <option value="honey">Organic Honey</option>
+              <option value="spices">Natural Spices</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="quantity">Quantity (in containers)*</label>
+            <input type="number" id="quantity" min="1" placeholder="Enter quantity" required>
+          </div>
+          <div class="form-group">
+            <label for="shipping">Shipping Location*</label>
+            <input type="text" id="shipping" placeholder="Enter shipping destination" required>
+          </div>
+          <div class="form-group">
+            <label for="requirements">Additional Requirements</label>
+            <textarea id="requirements" rows="6" placeholder="Special requirements, packaging preferences, or other notes"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-glow">Request Quote</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- WhatsApp Float Button -->
+  <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer" class="whatsapp-float" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+    </svg>
+  </a>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <div class="logo">
+            <svg width="32" height="32" viewBox="0 0 32 32">
+              <path d="M16 4l12 7v10l-12 7-12-7V11l12-7z" fill="none" stroke="currentColor" stroke-width="2"/>
+              <path d="M16 11l5 3v6l-5 3-5-3v-6l5-3z" fill="currentColor"/>
+            </svg>
+            Mundo Hive
+          </div>
+          <p>Premium Quality Products at Competitive Prices</p>
+        </div>
+
+        <div class="footer-links">
+          <div class="footer-col">
+            <h4>Company</h4>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact</a>
+            <a href="#products">Products</a>
+          </div>
+          <div class="footer-col">
+            <h4>Legal</h4>
+            <a href="#privacy">Privacy Policy</a>
+            <a href="#terms">Terms of Service</a>
+            <a href="#shipping">Shipping Policy</a>
+          </div>
+          <div class="footer-col">
+            <h4>Follow Us</h4>
+            <div class="social-links">
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                  <rect x="2" y="9" width="4" height="12"/>
+                  <circle cx="4" cy="4" r="2"/>
+                </svg>
+              </a>
+              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="X.com">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
+                </svg>
+              </a>
+              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Instagram">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2023 Wound Ohio. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
